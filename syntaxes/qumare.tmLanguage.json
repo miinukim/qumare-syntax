@@ -1,0 +1,61 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "QuMaRE",
+    "scopeName": "source.qumare",
+    "fileTypes": ["qmr"],
+  
+    "patterns": [
+      { "include": "#comments" },
+      { "include": "#keywords" },
+      { "include": "#numbers" },
+      { "include": "#strings" }
+    ],
+  
+    "repository": {
+      "comments": {
+        "patterns": [
+          {
+            "name": "comment.line.number-sign.qumare",
+            "match": "#.*$"
+          }
+        ]
+      },
+  
+      "keywords": {
+        "patterns": [
+          {
+            "name": "keyword.control.qumare",
+            "match": "\\b(set|get|func|flush|clear|sleep|for|from|to|in)\\b"
+          }
+        ]
+      },
+  
+      "numbers": {
+        "patterns": [
+          {
+            "name": "constant.numeric.integer.qumare",
+            "match": "\\b\\d+\\b"
+          }
+        ]
+      },
+  
+      "strings": {
+        "patterns": [
+          {
+            "name": "string.quoted.double.qumare",
+            "begin": "\"",
+            "beginCaptures": { "0": { "name": "punctuation.definition.string.begin.qumare" } },
+            "end": "\"",
+            "endCaptures":   { "0": { "name": "punctuation.definition.string.end.qumare" } },
+            "patterns": [
+              {
+                "name": "constant.character.escape.qumare",
+                "match": "\\\\."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
