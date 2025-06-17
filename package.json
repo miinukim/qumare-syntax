@@ -2,7 +2,7 @@
   "name": "qumare-syntax",
   "displayName": "QuMaRE Syntax",
   "description": "VSCode syntax for QuMaRE experiment codes.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "QuIQCL",
   "engines": {
     "vscode": "^1.90.0"
