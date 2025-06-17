@@ -62,4 +62,4 @@ If you use another extension such as `.qmc`, add this to *settings.json*:
 
 ---
 
-*Open issues or contribute at **<https://github.com/quiqcl/qumare-syntax>***.
+*Open issues or contribute at **<https://github.com/miinukim/qumare-syntax>***.

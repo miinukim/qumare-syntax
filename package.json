@@ -1,9 +1,9 @@
 {
   "name": "qumare-syntax",
   "displayName": "QuMaRE Syntax",
-  "description": "TextMate grammar and snippets for QuMaRE experiment files.",
+  "description": "VSCode syntax for QuMaRE experiment codes.",
   "version": "0.1.0",
-  "publisher": "quiqcl",
+  "publisher": "QuIQCL",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -47,5 +47,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/quiqcl/qumare.git"
-  }
+  },
+  "icon": "src/Quiqcl.png"
 }
