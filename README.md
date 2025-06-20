@@ -11,7 +11,7 @@ Enables syntax‑highlighting, bracket matching and snippets for **`.qmr`** expe
 2.  Press **⌘ ⇧ X** (macOS) or **Ctrl Shift X** (Windows/Linux) to open the *Extensions* view.  
 3.  Search for **“QuMaRE Syntax”** or the full identifier **`quiqcl.qumare-syntax`**.  
 4.  Click **Install**.  
-5.  Reopen a `.qmr` file – colours and snippets are now active!
+5.  Reopen a `.qmr` file – colors and snippets are now active!
 
 ---
 
